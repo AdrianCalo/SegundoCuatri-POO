@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AdrianCalo/SegundoCuatri-POO/issues"
   },
-  "homepage": "https://github.com/AdrianCalo/SegundoCuatri-POO#readme"
+  "homepage": "https://github.com/AdrianCalo/SegundoCuatri-POO#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.6"
+  }
 }
