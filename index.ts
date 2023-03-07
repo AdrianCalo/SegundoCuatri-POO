@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 import { Car } from './Car'
-import {RegistroAutomotor}  from './RegistroAutomotor'
+import RegistroAutomotor  from './RegistroAutomotor'
 
 let agencia:[]= []; 
 

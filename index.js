@@ -6,7 +6,7 @@ var RegistroAutomotor_1 = require("./RegistroAutomotor");
 var agencia = [];
 try {
     var data = fs.readFileSync("./BaseDatosAuto.json", "utf8");
-    var jsonFile = JSON.parse(data);
+    var jsonFile = JSON.parse(data); //.parse() convierte texto a objeto
     agencia = jsonFile.map(function (item) { return item; });
 }
 catch (error) { }
